@@ -1,0 +1,62 @@
+/* Estilos generales del contenedor */
+.marcas {
+  text-align: center;
+}
+
+/* Contenedor del slider */
+.slider-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* Contenedor de cada imagen */
+.div-img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Estilos de las imágenes dentro del carrusel */
+.img-carousel {
+  margin: 10px 10px;
+  width: 250px; /* Ajusta el tamaño de las imágenes */
+  height: 180px; /* Ajusta el tamaño de las imágenes */
+  object-fit: contain; /* Mantiene la proporción sin recortar */
+}
+
+/* Efecto hover para resaltar la imagen */
+.img-carousel:hover {
+  filter: grayscale(0%);
+}
+
+/* Ajustes para los dots del carrusel */
+.slick-dots {
+  bottom: -30px;
+  margin: 25px;
+}
+
+.slick-dots li button:before {
+  color: white;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+  opacity: 1;
+}
+
+/* Estilos para los botones de navegación */
+.slick-prev,
+.slick-next {
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 25px;
+  color: white;
+}

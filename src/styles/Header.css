@@ -1,0 +1,9 @@
+.nav-menu a {
+  font-family: "Contrail One", sans-serif;
+}
+
+.nav-menu a:hover {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
