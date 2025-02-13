@@ -21,7 +21,15 @@ function App() {
       <Reviews />
       <Services />
       <Footer />
-      <button className="fixed bottom-5 left-5 p-3 bg-green-500 text-white rounded-full">
+      <button
+        className="fixed bottom-5 left-5 p-3 bg-green-500 text-white rounded-full"
+        onClick={() => {
+          window.open(
+            "https://w.app/jpbrhd",
+            "_blank"
+          );
+        }}
+      >
         <img src={whatsApp} alt="" />
       </button>
 

@@ -21,7 +21,9 @@ const Hero = () => {
             <h1>Soluciones Digitales, Aplicaciones Web, Sistemas a Medida..</h1>
           </div>
           <p className="parraf">
-            Desarrollo de Software, Aplicaciones Web, Sistemas a Medida, etc. 🚀 Contamos con personal capacitado para cumplir todas sus expectativas.
+            Desarrollo de Software, Aplicaciones Web, Sistemas a Medida, etc. 🚀
+            Contamos con personal capacitado para cumplir todas sus
+            expectativas.
           </p>
           <div className="cont-subtitle">
             <Typewriter
@@ -37,7 +39,12 @@ const Hero = () => {
             />
           </div>
           <div className="cont-button">
-            <button class="button-h">
+            <button
+              class="button-h"
+              onClick={() => {
+                window.open("https://w.app/jpbrhd", "_blank");
+              }}
+            >
               <span class="button_lg">
                 <span class="button_sl"></span>
                 <span class="button_text">Contactanos</span>
