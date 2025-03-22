@@ -17,27 +17,27 @@ const Hero = () => {
       <Burbujas />
       <div className="cont-info-hero">
         <div className="cont-titles">
-          <div className="cont-title">
-            <h1>Soluciones Digitales, Aplicaciones Web, Sistemas a Medida..</h1>
-          </div>
-          <p className="parraf">
-            Desarrollo de Software, Aplicaciones Web, Sistemas a Medida, etc. 🚀
-            Contamos con personal capacitado para cumplir todas sus
-            expectativas.
-          </p>
-          <div className="cont-subtitle">
-            <Typewriter
-              options={{
-                strings: [
-                  "Desarrollo de Software </>",
-                  "Aplicaciones Web 🌐",
-                  "Sistemas a Medida 📱",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </div>
+  <div className="cont-title">
+    <h1>Transformamos Ideas en Soluciones Digitales Innovadoras</h1>
+  </div>
+  <p className="parraf">
+    Impulsamos tu negocio con desarrollo de software a medida, aplicaciones web de alto rendimiento y sistemas personalizados que optimizan tus procesos. 🚀  
+    Nuestro equipo de expertos está listo para llevar tu visión al siguiente nivel con tecnología de alto nivel y soluciones escalables.
+  </p>
+  <div className="cont-subtitle">
+    <Typewriter
+      options={{
+        strings: [
+          "Desarrollo de Software Inteligente </>",
+          "Aplicaciones Web de Alto Impacto 🌐",
+          "Sistemas Personalizados para tu Empresa 📱",
+        ],
+        autoStart: true,
+        loop: true,
+      }}
+    />
+  </div>
+</div>
           <div className="cont-button">
             <button
               class="button-h"
