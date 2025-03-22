@@ -18,29 +18,29 @@ const Hero = () => {
       <div className="cont-info-hero">
         <div className="cont-titles">
           <div className="cont-title">
-            <h1>Transformamos Ideas en Soluciones Digitales Innovadoras</h1>
+            <h1>Soluciones Digitales que Impulsan tu Negocio</h1>
           </div>
           <p className="parraf">
-            Impulsamos tu negocio con desarrollo de software a medida,
-            aplicaciones web de alto rendimiento y sistemas personalizados que
-            optimizan tus procesos. 🚀 Nuestro equipo de expertos está listo
-            para llevar tu visión al siguiente nivel con tecnología de alto
-            nivel y soluciones escalables.
+            Desarrollamos software a medida, aplicaciones web innovadoras y
+            sistemas personalizados que optimizan tus procesos. 🚀 Nuestro
+            equipo altamente capacitado convierte tus ideas en tecnología de
+            vanguardia, asegurando soluciones eficientes, escalables y a la
+            medida de tus necesidades.
           </p>
           <div className="cont-subtitle">
             <Typewriter
               options={{
                 strings: [
-                  "Desarrollo de Software Inteligente </>",
-                  "Aplicaciones Web de Alto Impacto 🌐",
-                  "Sistemas Personalizados para tu Empresa 📱",
+                  "Desarrollo de Software a Medida </>",
+                  "Aplicaciones Web de Alto Rendimiento 🌐",
+                  "Sistemas Personalizados para Empresas 📱",
                 ],
                 autoStart: true,
                 loop: true,
               }}
             />
           </div>
-        </div>
+
         <div className="cont-button">
           <button
             class="button-h"
@@ -54,9 +54,10 @@ const Hero = () => {
             </span>
           </button>
         </div>
-      </div>
-      <div className="cont-img">
-        <img src={img_principal} alt="" />
+        </div>
+        <div className="cont-img">
+          <img src={img_principal} alt="" />
+        </div>
       </div>
     </section>
   );
